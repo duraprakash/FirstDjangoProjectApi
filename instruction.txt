@@ -1,0 +1,75 @@
+
+videos:
+https://www.youtube.com/watch?v=fOukA4Qh9QA
+- django model
+- django admin
+
+https://www.youtube.com/watch?v=c708Nf0cHrs
+
+
+to enable run .bat files
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Current
+to disable run .bat files
+    Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope Current
+
+config/settings
+note: settings
+    DEBUG = TRUE -- detailed for DEBUG
+    DEBUG = FALSE -- for showing to user
+    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS = ["*"] -- all
+    
+1. create virtual environment
+py -m venv env
+2. activate virtual environment
+env\Scripts\activate.bat
+
+(env) ma
+3. install django
+py -m pip install Django
+4. create project using django
+django-admin startproject config .
+5. run localhost server
+py manage.py runserver
+
+config/urls.py
+6. controller - urlpatterns
+
+7. register templates
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / "templates"], # 7. register templates
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+
+separate the section for each table
+8. django-admin startapp todos
+
+9. main urls is the first one that is created here config/urls is the main and remove the view from the views
+from django.urls import path, include
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('todos/', include("todo.urls)), # 2. define the url path and fun
+]
+
+10. settings ma changes
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'todos',
+]
