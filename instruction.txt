@@ -54,7 +54,7 @@ TEMPLATES = [
 
 
 separate the section for each table
-8. django-admin startapp todos
+8. django-admin startapp todo
 
 9. main urls is the first one that is created here config/urls is the main and remove the view from the views
 from django.urls import path, include
@@ -71,5 +71,192 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todos',
+    'todo',
 ]
+
+
+
+11. Database
+data change = record change
+database structure change = database table's column changes
+
+11.1 create model
+# Create your models here.
+    from django.db import models
+
+    # Create your models here.
+    class Todo(models.Model):
+        title = models.CharField(max_length=250, null=False, blank=False)
+        completed = models.BooleanField()
+        created_at = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
+
+11.2 create migration of the model
+py manage.py makemigrations
+11.3 apply migration
+py manage.py migrate
+
+# any changes in model run this 2 commands 11.2/3
+options: select 1 and provide string 'hello world'
+
+
+12 create superadmin
+py manage.py createsuperuser
+user -> admin
+pass -> a1a2
+in web-browser--> localhost/admin # use user and password to sign in
+
+12.1 register todo in admin.py [inside todo/admin.py]
+    from django.contrib import admin
+    from .models import Todo
+
+    # Register your models here.
+    admin.site.register(Todo)
+
+12.2 run migration 11.2/11.3 then browser
+
+12.3 changes in todo/views.py functions
+
+13. changes in todo/urls.py urlpatterns
+
+14. changes in settings.py
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'todo',
+    ]
+
+# database best steps...
+15. for user as well repeat the same
+    11.1 create model
+    # Create your models here.
+        from django.db import models
+
+        # Create your models here.
+        class User(models.Model):
+            name = models.CharField(max_length=250, null=False, blank=False)
+            age = models.CharField(max_length=250, null=False, blank=False)
+            marital_status = models.BooleanField()
+            created_at = models.DateField(auto_now_add=True)
+
+        def __str__(self) :
+            return self.name
+
+    11.2 create migration of the model
+    py manage.py makemigrations
+    11.3 apply migration
+    py manage.py migrate
+
+    # any changes in model run this 2 commands 11.2/3
+    options: select 1 and provide string 'hello world'
+
+
+    12.1 register user in admin.py [inside user/admin.py]
+        from django.contrib import admin
+        from .models import User
+
+        # Register your models here.
+        admin.site.register(User)
+
+    12.2 run migration 11.2/11.3 then browser
+
+    12.3 changes in todo/views.py functions
+        # work with database and ORM
+        from .models import User
+        from django.http import JsonResponse
+
+        def list_db_user(request):
+            try:
+                db_users = User.objects.all()
+                response_user = []
+                for i in db_users:
+                    response_user.append(
+                        {
+                            "id": i.pk,
+                            "name": i.name,
+                            "age": i.age,
+                            "matital_status": i.marital_status,
+                        }
+                    )
+
+                return JsonResponse(response_user, safe=False)
+            except User.DoesNotExist:
+                return JsonResponse({"message":"User Not Found"}, safe=False)
+            
+        def retrieve_db_user(request, userId):
+            try:
+                user = User.objects.get(id=userId)
+                return JsonResponse(
+                    {
+                        "id": user.id,
+                        "name": user.name,
+                        "age": user.age,
+                        "marital_status": user.marital_status,
+                    },
+                    safe=False
+                )
+            except User.DoesNotExist:
+                return JsonResponse({"message":"User Not Found"}, safe=False)
+            
+        def update_db_user(request, userId):
+            try:
+                user = User.objects.get(id=userId)
+                
+                # if user.marital_status == True:
+                #     user.marital_status = False
+                # else:
+                #     user.marital_status = True
+
+                user.marital_status = not user.marital_status
+                
+                user.save()
+                return JsonResponse(
+                    {
+                        "id": user.id,
+                        "name": user.name,
+                        "age": user.age,
+                        "marital_status": user.marital_status,
+                    },
+                    safe=False
+                )
+            except User.DoesNotExist:
+                return JsonResponse({"message": "User Not Found"}, safe=False)
+            
+
+        def delete_db_user(request, userId):
+            try:
+                user = User.objects.get(id=userId)
+
+                user.delete()
+                return JsonResponse({"message": "User deleted successfully"}, safe=False)
+            except User.DoesNotExist:
+                return JsonResponse({"message":"User Not Found"}, safe=False)
+
+    13. changes in user/urls.py urlpatterns
+    from django.urls import path
+    from .views import list_db_user, retrieve_db_user, update_db_user, delete_db_user
+
+    urlpatterns = [
+        # db
+        path('', list_db_user),
+        path('<int:userId>/', retrieve_db_user),
+        path('<int:userId>/update/', update_db_user),
+        path('<int:userId>/delete/', delete_db_user),
+    ]
+
+    14. changes in settings.py
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'user',
+    ]
