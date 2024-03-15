@@ -1,0 +1,41 @@
+This is written first in branch b3
+Q: changes in b3 and merging the changes to b2 (b3 with b2)
+suppose i have branches namely, b3, b2, b1, main, master. 
+if i checkout b3 and made changes then merge the branches b3 and b2.
+how can we do that ?
+
+
+To merge branches b3 and b2, after checking out the b3 branch and
+making changes, you can follow these steps:
+
+1. Checkout the b3 branch:
+git checkout b3
+
+2. Make changes:
+Edit, add, or delete files as needed.
+
+3. Add and commit the changes:
+git add .
+git commit -m "Your commit message"
+
+4. Checkout the b2 branch:
+git checkout b2
+
+5. Merge the b3 branch into b2:
+git merge b3
+
+6. Resolve any merge conflicts if necessary:
+If there are merge conflicts, Git will prompt you to resolve them. 
+You can use git status to see which files have conflicts, edit 
+the conflicting files to resolve the conflicts, and then 
+add the resolved files with git add before committing the merge.
+
+7. Commit the merge:
+If there were no conflicts or once you have resolved them, commit the merge:
+git commit
+
+8. Push the changes:
+Finally, push the merged changes to the remote repository:
+git push origin b2
+
+This will merge the changes from the b3 branch into the b2 branch.
