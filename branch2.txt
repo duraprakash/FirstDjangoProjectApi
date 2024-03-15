@@ -20,3 +20,7 @@ git push origin b1
 
 
 This will push your changes from the local b1 branch to the remote b1 branch.
+
+
+Now, we can Create a pull request for 'b1' on GitHub by visiting:
+https://github.com/duraprakash/FirstDjangoProjectApi/pull/new/b1
