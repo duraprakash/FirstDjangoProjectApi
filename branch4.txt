@@ -1,0 +1,46 @@
+Q: suppose i have branches namely, b4, b3, b2, b1, main, master. 
+if i checkout b4 and made changes, then without merging the branches 
+b4 into main, i run the command git push origin main. what will happen ?
+
+
+If you have checked out the b4 branch, made changes, and then without merging 
+the b4 branch into main, you run the command git push origin main, Git will attempt to
+push the main branch to the remote repository (origin) without including the changes 
+from the b4 branch. This is because you haven't merged b4 into main, 
+so the changes on b4 are not part of the main branch yet.
+
+If the main branch on the remote repository has diverged 
+(i.e., other changes have been pushed to main since you last pulled or synced), 
+Git will reject the push because it would result in a non-fast-forward push, 
+which could potentially overwrite or lose changes on the remote main branch.
+
+To push the changes from b4 to main, you should first merge b4 into main locally 
+and then push the main branch to the remote repository. Here's how you can do it:
+
+
+1. Checkout the b4 branch:
+git checkout b4
+
+2. Make changes:
+Edit, add, or delete files as needed.
+
+3. Add and commit the changes:
+git add .
+git commit -m "Your commit message"
+
+4. Merge b4 into main:
+git checkout main
+git merge b4
+
+5. Resolve any merge conflicts if necessary:
+If there are merge conflicts, resolve them as described earlier.
+
+6. Commit the merge:
+git commit
+
+7. Push the main branch to the remote repository:
+git push origin main
+
+
+This way, the changes from the b4 branch will be included in the main branch, 
+and you can push the updated main branch to the remote repository.
