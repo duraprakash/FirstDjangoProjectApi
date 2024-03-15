@@ -1,0 +1,6 @@
+In this branch b2, there is no branch3.txt file.
+
+However, in this branch there is branch2.txt file.
+
+Here, the changes in b2 are tracked and added 
+with the commit message "b2 with branch2.txt but no branch3.txt"
