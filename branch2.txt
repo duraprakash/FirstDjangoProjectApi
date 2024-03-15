@@ -1,0 +1,22 @@
+Hello, I'm from branch 1
+git push -u origin b1
+
+If you have three branches named b1, main, and master, 
+and you've checked out the b1 branch and made some changes 
+that you want to push to the b1 branch, you can do so 
+with the following steps:
+
+1. Make sure you are on the b1 branch by using the command:
+git checkout b1
+
+2. Add the changes you want to commit:
+git add .
+
+3. Commit the changes:
+git commit -m "Your commit message"
+
+4. Push the changes to the b1 branch:
+git push origin b1
+
+
+This will push your changes from the local b1 branch to the remote b1 branch.

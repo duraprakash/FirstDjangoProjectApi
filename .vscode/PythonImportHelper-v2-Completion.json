@@ -1,0 +1,820 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "config.asgi",
+        "description": "config.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "config.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-u=nsb=3+bu%#y2t7rw$7)y9f&)f^5x%mv_lys%m70_2tgq49xa'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-u=nsb=3+bu%#y2t7rw$7)y9f&)f^5x%mv_lys%m70_2tgq49xa'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'todo',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'todo',\n    'user',\n]",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'config.urls'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "ROOT_URLCONF = 'config.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / \"templates\"], # 7. register templates\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / \"templates\"], # 7. register templates\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'config.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "config.urls",
+        "description": "config.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('todos/', include(\"todo.urls\")),\n    path('users/', include(\"user.urls\")),\n]",
+        "detail": "config.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "config.wsgi",
+        "description": "config.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "config.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "list_user",
+        "kind": 2,
+        "importPath": "del.userviews",
+        "description": "del.userviews",
+        "peekOfCode": "def list_user(request):\n    return JsonResponse(users, safe=False)\ndef retrieve_user(request, userId):\n    user = None # empty list\n    for i in users: # looping\n        if i[\"id\"] == userId: # match the given id\n            user = i # store if matched\n            break\n    return JsonResponse(user, safe=False) # return the result\ndef update_user(request, userId):",
+        "detail": "del.userviews",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_user",
+        "kind": 2,
+        "importPath": "del.userviews",
+        "description": "del.userviews",
+        "peekOfCode": "def retrieve_user(request, userId):\n    user = None # empty list\n    for i in users: # looping\n        if i[\"id\"] == userId: # match the given id\n            user = i # store if matched\n            break\n    return JsonResponse(user, safe=False) # return the result\ndef update_user(request, userId):\n    user = None # empty list\n    for i in users: # looping",
+        "detail": "del.userviews",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "del.userviews",
+        "description": "del.userviews",
+        "peekOfCode": "def update_user(request, userId):\n    user = None # empty list\n    for i in users: # looping\n        if i[\"id\"] == userId: # match the given id\n            user = i # store if matched\n            users.remove(user) # remove the data from actual data list\n            break\n    if user is not None: # user list not null\n        # True if user[\"marital_status\"] == False else False\n        # change their marital_status reversly",
+        "detail": "del.userviews",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "del.userviews",
+        "description": "del.userviews",
+        "peekOfCode": "def delete_user(request, userId):\n    user = None # emply list\n    for i in users: # looping\n        if i[\"id\"] == userId: # match the given id\n            user = i # store if matched\n            users.remove(user) # remove the data from the actual data list\n            break\n    if user: # if user is found\n        return JsonResponse({\"message\":f\"User with id {userId} is deleted.\"} , safe=False)\n    else:",
+        "detail": "del.userviews",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "del.userviews",
+        "description": "del.userviews",
+        "peekOfCode": "users = [\n    {\n        \"id\": 1,\n        \"name\": \"Ganesh Thapa\",\n        \"age\": 24,\n        \"marital_status\": False\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Hari Bdr Gurung\",",
+        "detail": "del.userviews",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "todo.migrations.0001_initial",
+        "description": "todo.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Todo',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=250)),",
+        "detail": "todo.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "todo.migrations.0002_todo_created_at",
+        "description": "todo.migrations.0002_todo_created_at",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('todo', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='todo',\n            name='created_at',\n            field=models.CharField(default='hello world', max_length=250),\n            preserve_default=False,",
+        "detail": "todo.migrations.0002_todo_created_at",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "todo.migrations.0003_alter_todo_created_at",
+        "description": "todo.migrations.0003_alter_todo_created_at",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('todo', '0002_todo_created_at'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='todo',\n            name='created_at',\n            field=models.DateField(),\n        ),",
+        "detail": "todo.migrations.0003_alter_todo_created_at",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "todo.migrations.0004_alter_todo_created_at",
+        "description": "todo.migrations.0004_alter_todo_created_at",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('todo', '0003_alter_todo_created_at'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='todo',\n            name='created_at',\n            field=models.DateField(auto_now_add=True),\n        ),",
+        "detail": "todo.migrations.0004_alter_todo_created_at",
+        "documentation": {}
+    },
+    {
+        "label": "TodoConfig",
+        "kind": 6,
+        "importPath": "todo.apps",
+        "description": "todo.apps",
+        "peekOfCode": "class TodoConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'todo'",
+        "detail": "todo.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "kind": 6,
+        "importPath": "todo.models",
+        "description": "todo.models",
+        "peekOfCode": "class Todo(models.Model):\n    title = models.CharField(max_length=250, null=False, blank=False)\n    completed = models.BooleanField()\n    created_at = models.DateField(auto_now_add=True)\ndef __str__(self):\n    return self.title",
+        "detail": "todo.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "todo.urls",
+        "description": "todo.urls",
+        "peekOfCode": "urlpatterns = [\n    path('myview/', hello), # 2. define the url path and fun\n    # path('home/', home_view), \n    path('helloview/', hello_view), \n    # CRUD of Todo\n    path('', list_todo), \n    path('<int:todoId>/', retrieve_todo), \n    path('<int:todoId>/update/', update_todo), \n    path('<int:todoId>/delete/', delete_todo), \n    path('create/', create_todo),",
+        "detail": "todo.urls",
+        "documentation": {}
+    },
+    {
+        "label": "hello_view",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def hello_view(request):\n    user = {\n        \"name\": \"Prakash\",\n        \"age\": 22\n        }\n    print(type(user))\n    return JsonResponse(user)\ndef yview(request):\n    count = 0\n    count += 1",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "yview",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def yview(request):\n    count = 0\n    count += 1\n    return HttpResponse(f\"<h1><marquee>Mail Sent Successfully {count}</marquee></h1>\")\ndef home_view(request):\n    return render(request, \"index.html\")\ntodos = [\n    {\n        \"userId\": 1,\n        \"id\": 1,",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "home_view",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def home_view(request):\n    return render(request, \"index.html\")\ntodos = [\n    {\n        \"userId\": 1,\n        \"id\": 1,\n        \"title\": \"Buy milk\",\n        \"completed\": False\n    },\n    {",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "list_todo",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def list_todo(request):\n    db_todos = Todo.objects.all() # returns query sets from database records\n    # print(db_todos.query) # show the sql code\n    # db_todos = Todo.objects.get() # get only one\n    response_todo = [] # empty list\n    print(db_todos)\n    # convert into dict for simplicity\n    for i in db_todos:\n        response_todo.append(\n            {\"id\": i.pk, \"title\": i.title, \"completed\":i.completed, \"created_at\":i.created_at}",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_todo",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def retrieve_todo(request, todoId):\n    try:\n        todo = Todo.objects.get(id=todoId)\n        return JsonResponse(\n            {\n                \"id\": todo.pk,\n                \"title\": todo.title,\n                \"completed\": todo.completed,\n                \"created_at\": todo.created_at,\n            },",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_todo",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def update_todo(request, todoId):\n    try:\n        todo = Todo.objects.get(id=todoId)\n        if todo.completed == True:\n            todo.completed = False\n        else:\n            todo.completed = True\n        todo.save()\n        return JsonResponse(\n            {",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_todo",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def delete_todo(request, todoId):\n    try:\n        todo = Todo.objects.get(id=todoId)\n        todo.delete()\n        return JsonResponse(\n            {\"message\":\"Todo deleted successfully\"},safe=False,\n        )\n    except Todo.DoesNotExist:\n        return JsonResponse({\"message\": \"Todo not found\"}, status=404)\n# @csrf_exempt",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_todo",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def create_todo(request):\n    if request.method == 'POST':\n        data = json.loads(request.body)\n        title = data.get(\"title\")\n        completed = data.get(\"completed\", False)\n        new_todo = Todo.objects.create(title=title, completed=completed)\n        new_todo.save()\n        return JsonResponse(\n            {\n                \"title\" : new_todo.title,",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "todos",
+        "kind": 5,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "todos = [\n    {\n        \"userId\": 1,\n        \"id\": 1,\n        \"title\": \"Buy milk\",\n        \"completed\": False\n    },\n    {\n        \"userId\": 1,\n        \"id\": 2,",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0001_initial",
+        "description": "user.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=250)),",
+        "detail": "user.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UserConfig",
+        "kind": 6,
+        "importPath": "user.apps",
+        "description": "user.apps",
+        "peekOfCode": "class UserConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user'",
+        "detail": "user.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "user.models",
+        "description": "user.models",
+        "peekOfCode": "class User(models.Model):\n    name = models.CharField(max_length=250, null=False, blank=False)\n    age = models.CharField(max_length=250, null=False, blank=False)\n    marital_status = models.BooleanField()\n    created_at = models.DateField(auto_now_add=True)\ndef __str__(self) :\n    return self.name",
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "user.urls",
+        "description": "user.urls",
+        "peekOfCode": "urlpatterns = [\n    # # temp\n    # path('', list_user),\n    # path('<int:userId>/', retrieve_user),\n    # path('<int:userId>/update/', update_user),\n    # path('<int:userId>/delete/', delete_user),\n    # db\n    path('', list_db_user),\n    path('<int:userId>/', retrieve_db_user),\n    path('<int:userId>/update/', update_db_user),",
+        "detail": "user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "list_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def list_user(request):\n    return JsonResponse(users, safe=False)\n# retrieve user by id\ndef retrieve_user(request, userId):\n    user = None\n    for i in users:\n        if i[\"id\"] == userId:\n            user = i\n            break\n    return JsonResponse(user, safe=False)",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def retrieve_user(request, userId):\n    user = None\n    for i in users:\n        if i[\"id\"] == userId:\n            user = i\n            break\n    return JsonResponse(user, safe=False)\n# update user by id\ndef update_user(request, userId):\n    user = None",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def update_user(request, userId):\n    user = None\n    for i in users:\n        if i[\"id\"] == userId:\n            user = i\n            users.remove(user)\n            break\n    if user:\n        if user[\"marital_status\"] == False:\n            user[\"marital_status\"] = True",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def delete_user(request, userId):\n    user = None\n    for i in users:\n        if i[\"id\"] == userId:\n            user = i\n            users.remove(user)\n    if user:\n        return JsonResponse({\"message\":\"User deleted successfully\"}, safe=False)\n    else:\n        return JsonResponse({\"message\":\"User Not Found\"}, safe=False)",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "list_db_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def list_db_user(request):\n    try:\n        db_users = User.objects.all()\n        response_user = []\n        for i in db_users:\n            response_user.append(\n                {\n                    \"id\": i.pk,\n                    \"name\": i.name,\n                    \"age\": i.age,",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_db_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def retrieve_db_user(request, userId):\n    try:\n        user = User.objects.get(id=userId)\n        return JsonResponse(\n            {\n                \"id\": user.id,\n                \"name\": user.name,\n                \"age\": user.age,\n                \"marital_status\": user.marital_status,\n            },",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_db_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def update_db_user(request, userId):\n    try:\n        user = User.objects.get(id=userId)\n        # if user.marital_status == True:\n        #     user.marital_status = False\n        # else:\n        #     user.marital_status = True\n        user.marital_status = not user.marital_status\n        user.save()\n        return JsonResponse(",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_db_user",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def delete_db_user(request, userId):\n    try:\n        user = User.objects.get(id=userId)\n        user.delete()\n        return JsonResponse({\"message\": \"User deleted successfully\"}, safe=False)\n    except User.DoesNotExist:\n        return JsonResponse({\"message\":\"User Not Found\"}, safe=False)",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "users = [\n    {\n        \"id\": 1,\n        \"name\": \"Ganesh Thapa\",\n        \"age\": 24,\n        \"marital_status\": False\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Hari Bdr Gurung\",",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
