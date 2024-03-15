@@ -4,3 +4,24 @@ However, in this branch there is branch2.txt file.
 
 Here, the changes in b2 are tracked and added 
 with the commit message "b2 with branch2.txt but no branch3.txt"
+
+Now, merging b3 into b2.
+Merge the b3 branch into b2:
+git merge b3
+
+Resolve any merge conflicts if necessary:
+If there are merge conflicts, Git will prompt you to resolve them. 
+You can use git status to see which files have conflicts, 
+edit the conflicting files to resolve the conflicts, and
+then add the resolved files with git add before committing the merge.
+
+Commit the merge:
+If there were no conflicts or once you have resolved them, commit the merge:
+git commit
+
+Push the changes:
+Finally, push the merged changes to the remote repository:
+git push origin b2
+
+
+This will merge the changes from the b3 branch into the b2 branch.
