@@ -1,0 +1,15 @@
+Q: suppose i have branches namely, b5, b4, b3, b2, b1, main, master. 
+if i checkout b5 and made changes, then without merging the branches
+b5 into main, i run the command git push -u origin main from branch b5. 
+what will happen ?
+
+
+If you are on branch b5 and you run git push -u origin main without merging b5 into main, 
+Git will try to push the local main branch to the remote repository (origin). 
+However, since main does not contain the changes from b5, the push will be 
+rejected by the remote repository.
+
+Git will likely display an error message similar to:
+error: failed to push some refs to 'remote_repository_url'
+
+To successfully push your changes to main, you need to merge b4 into main first, resolve any conflicts, if any, and then push the changes.
