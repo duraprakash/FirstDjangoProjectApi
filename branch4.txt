@@ -28,6 +28,7 @@ Edit, add, or delete files as needed.
 git add .
 git commit -m "Your commit message"
 
+# to include the changes in b4 into main we need to merge b4 into main first
 4. Merge b4 into main:
 git checkout main
 git merge b4
